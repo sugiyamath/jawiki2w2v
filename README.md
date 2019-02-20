@@ -1,0 +1,2 @@
+# jawiki2w2v
+jawiki dumpのURLを渡せばText8とword2vecを生成してくれるツール
