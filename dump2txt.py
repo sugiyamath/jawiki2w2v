@@ -14,6 +14,6 @@ if __name__ == "__main__":
             soup = BeautifulSoup(f.read(), "lxml")
         tmp = soup.get_text()
         tmp = [x for x in tmp.split("\n") if x != ""]
-        with open("wiki.text8", "a") as f:
+        with open("wiki.txt", "a") as f:
             f.write("\n".join(tmp))
 

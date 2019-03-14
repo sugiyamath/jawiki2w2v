@@ -13,7 +13,7 @@ else
     cd wikiextractor
     python WikiExtractor.py -o extracted ../dump.bz2
     cd ..
-    python create_text8.py
-    python preprocess_text8.py $npath
-    python t82w.py
+    python dump2txt.py
+    python preprocess.py $npath
+    python txt2model.py
 fi
