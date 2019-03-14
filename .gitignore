@@ -3,3 +3,4 @@ wikiextractor/*
 *.text8
 *~
 word2vec.model*
+*.txt
