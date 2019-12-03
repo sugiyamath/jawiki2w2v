@@ -12,7 +12,7 @@ git clone https://github.com/taku910/mecab && \
     make && \
     make check && \
     make install && \
-    pip install --no-cache-dir mecab-python3 && \
+    pip3 install --no-cache-dir mecab-python3 && \
     ldconfig && \
     cd ../mecab-ipadic && \
     ./configure --with-charset=utf8 && \
@@ -31,7 +31,7 @@ git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd && \
 ### pythonモジュールを入れる
 
 ```
-pip install gensim tqdm beautifulsoup4 mecab-python3
+pip3 install gensim tqdm beautifulsoup4 mecab-python3 lxml
 ```
 
 ## 使い方

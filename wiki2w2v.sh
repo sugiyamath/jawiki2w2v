@@ -11,9 +11,9 @@ else
     tar xjf dump.bz2
     git clone https://github.com/attardi/wikiextractor
     cd wikiextractor
-    python WikiExtractor.py -o extracted ../dump.bz2
+    python3 WikiExtractor.py -o extracted ../dump.bz2
     cd ..
-    python dump2txt.py
-    python preprocess.py $npath
-    python txt2model.py
+    python3 dump2txt.py
+    python3 preprocess.py $npath
+    python3 txt2model.py
 fi
